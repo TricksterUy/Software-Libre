@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: rubik;
+    scroll-behavior: smooth; 
+}
+body {
+    background-image: url(imagenes/fondo2.jpg);
+    background-size: 100vw 100vh; /*Viewport Width y Viewport Height*/
+    background-attachment: fixed;
+    margin: 0;
+}
+.container
+{	
+	text-align:center;
+	background:#d2ccdb;
+	border: 1px solid whitesmoke;
+}
+
+img
+{
+	height:auto;
+	max-width:100%;
+}
+
+
+.fila-1
+{
+	padding:30px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	background-color: rgb(0, 0, 0);
+}
+
+.fila-2
+{
+	display:flex;
+	color:#d2ccdb;
+	font-size:4.6em;
+	background:#322348;
+	align-items:center;
+	justify-content:center;
+	text-align: center;
+}
+
+.fila-3
+{
+	padding:50px;
+	display:flex;
+	color:#322348;
+	font-size:0.9em;
+	text-align:justify;
+	background:#e7e4ed;
+	align-items:center;
+	flex-direction:column;
+	justify-content:center;
+}
+
+.boton
+{
+	background:#e7e4ed;
+	color: #322348;
+	border: 1px solid #322348;
+	margin-top:20px;
+	padding:10px;
+	border-radius: 5px;
+}
+
+.boton:hover
+{
+	background:#322348;
+	color: #e7e4ed;
+	border: 1px solid #322348;
+	margin-top:20px;
+	padding:10px;
+	transition:2s;
+
+}
+p{
+    color: #fff;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, .7);
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-align: justify;
+}
+h2{
+	color: rgb(195, 0, 0);
+	text-align: center;
+	background-color: rgba(0, 0, 0, .7);
+	margin-left: 50px;
+    margin-right: 50px;
+	padding: 10px 20px;
+}
+.devs{
+    width:500px ; 
+    height:300px;
+	display: flex;
+	justify-content: center;
+}
+iframe{
+	margin-top: 30px;
+	width: 760px;
+	height: 515px;
+}
+.footer {
+	margin-top: 100px;
+    background-color: #141E27;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+}
+
+.txt_footer {
+    font-weight: 100;
+}
+
+.mail {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*hover crea una sub clase en a*/
+
+.mail:hover {
+    color: rgb(255, 0, 0);
+	font-size: 25px;
+    text-decoration: underline;
+}
+.simplescrollup__button {
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    transition: 1s all;
+    z-index: 10000;
+	cursor: pointer;
+}
+.simplescrollup__button--show {
+    transform: translateX(0);
+}
+.simplescrollup__button--hide {
+    transform: translateX(100px);
+}
